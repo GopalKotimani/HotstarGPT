@@ -1,12 +1,69 @@
-# React + Vite
+# Reading documentation is super power of developer 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+- Create React App
+- Configured tailwind css 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Fetaure
+-Login-Regirster 
+    -Sign in / signup form
+    -redirect to browser page 
+    -Header
+    -Routing of app 
+    -Login form
+    -Sign up form
+    -Form Validation
+    -useRef Hook
+    -Firebase setup
+    -Deploying pur app to production 
+    -Create signup in user accont in firebase 
+    - Implement sign in user api 
+    - Created Redux Store with userSlice 
+    - Implemented signout 
+    - Updated Profile 
+    - Bug fix: Signup user displayName and profile picture updte 
+    - BugFix: If the user is not logged in redirect / browse to login page and vice-versa 
+    - Unsubscribesd to the onAuthStateChanged callback 
+    - Added hardcoded value into constants file 
+    - Register TMDB API & create an app and get access token
+    - Get data from TMDB now playing movies list API 
+    - Custome Hook for Now playing movies 
+    - Create mocieSlice 
+    - Update Store with movies Data 
+    - Planning for MainContainer & secondary Container 
+    - Fetch Data for Trailer Video 
+    - Update Store with Trailer Vidoe Data 
+    - Embeded the Youtube Video and make it autoplay and mute 
+    - Tailwind Classes to make Main Container look awesome
+    - Build Secondary component
+    - Build Movie list 
+    - Build Movie card
+    - TMDB Image CDN URL 
+    - Made the browser page amazing with Tailwind CSS
+    - useNowPlaying custome hook
+    - usePopularMovies custom hook 
+    - useTopRatedMovies custom hook
+    - useUpCommingMovies custom hook
+    - Add GPT search feature 
+    - GPT search feature 
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-Browse(Afte athentication)
+    -Header 
+    -Main Movie 
+        -Tailer in Background 
+        -Title $ Description 
+        -Movie Suggestions 
+            -MoviesLists * N
+Nrflix GPT 
+    -Search Bar 
+    -Movie Suggestions 
+
+-useRef
+
+
+# Hosting a project 
+1. Install firebase CLI - `npm install -g firebase-tools`
+2. Firebase login - `firebase login` 
+3. Initilize firebase - `firebase init`, then select hosting 
+4. Deploy command - `firebase deploy`  
